@@ -94,7 +94,7 @@ function endGame(){
         allgame.style.display = "none";
 
         playersChoices.innerHTML = "<h2>Game Finished, Try Again</h2>";
-        playersChoices.style.padding = "3%";
+        playersChoices.style.padding = "1.5%";
         playersChoices.style.width = "55%";
         playersChoices.style.marginLeft = "27.5%";
         playersChoices.style.marginTop = "8%";
