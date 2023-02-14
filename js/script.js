@@ -50,13 +50,13 @@ function game(userChoice){
 }
 function converted(choice){
     if(choice === "rock"){
-        return "<i class='far fa-hand-rock fs-1 text-danger py-2'></i>";
+        return "<i class='far fa-hand-rock fs-1 text-danger'></i>";
     }
     else if(choice === "paper"){
-        return "<i class='far fa-hand-paper fs-1 text-danger py-2'></i>";
+        return "<i class='far fa-hand-paper fs-1 text-danger'></i>";
     }
     else if(choice === "scissors"){
-        return "<i class='far fa-hand-scissors fs-1 text-danger py-2'></i>";
+        return "<i class='far fa-hand-scissors fs-1 text-danger'></i>";
     }
 }
 
@@ -95,15 +95,15 @@ function endGame(){
 
         playersChoices.innerHTML = "<h2>Game Finished, Try Again</h2>";
         playersChoices.style.padding = "3%";
-        playersChoices.style.width = "40%";
-        playersChoices.style.marginLeft = "30%";
+        playersChoices.style.width = "50%";
+        playersChoices.style.marginLeft = "25%";
         playersChoices.style.marginTop = "8%";
         playersChoices.style.borderRadius = "15px";
         playersChoices.style.textAlign = "center";
         playersChoices.style.color = "white";
         playersChoices.style.background = "rgb(73, 192, 71)";
 
-        repeat.style.display = "flex";
+        repeat.style.display = "block";
 
     }
     else if(playerPoints === 5 && computerPoints < 5){
@@ -112,15 +112,15 @@ function endGame(){
 
         playersChoices.innerHTML = "<h2>Congratulations, You are Winner!</h2>";
         playersChoices.style.padding = "3%";
-        playersChoices.style.width = "40%";
-        playersChoices.style.marginLeft = "30%";
+        playersChoices.style.width = "50%";
+        playersChoices.style.marginLeft = "25%";
         playersChoices.style.marginTop = "8%";
         playersChoices.style.borderRadius = "15px";
         playersChoices.style.textAlign = "center";
         playersChoices.style.color = "white";
         playersChoices.style.background = "rgb(73, 192, 71)";
 
-        repeat.style.display = "flex";
+        repeat.style.display = "block";
 
     }else if((playerPoints < 5 && computerPoints === 5)){
 
@@ -128,15 +128,15 @@ function endGame(){
 
         playersChoices.innerHTML = "<h2>Game Over</h2>";
         playersChoices.style.padding = "3%";
-        playersChoices.style.width = "40%";
-        playersChoices.style.marginLeft = "30%";
+        playersChoices.style.width = "50%";
+        playersChoices.style.marginLeft = "25%";
         playersChoices.style.marginTop = "8%";
         playersChoices.style.borderRadius = "15px";
         playersChoices.style.textAlign = "center";
         playersChoices.style.color = "white";
         playersChoices.style.background = "red";
 
-        repeat.style.display = "flex";
+        repeat.style.display = "block";
 
     }
 }
