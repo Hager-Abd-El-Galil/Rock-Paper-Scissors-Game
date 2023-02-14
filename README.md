@@ -6,7 +6,8 @@
 - Bootstrap
 - JavaScript <br/>
 
-![image](https://user-images.githubusercontent.com/81237428/218687812-cd5cce23-7acb-43e1-b196-95f5a6844fac.png)
+![image](https://user-images.githubusercontent.com/81237428/218689887-ded929de-0195-4919-acd0-c78b5f7b4b12.png)
+
 
 
 
