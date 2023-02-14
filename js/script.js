@@ -95,8 +95,8 @@ function endGame(){
 
         playersChoices.innerHTML = "<h2>Game Finished, Try Again</h2>";
         playersChoices.style.padding = "3%";
-        playersChoices.style.width = "50%";
-        playersChoices.style.marginLeft = "25%";
+        playersChoices.style.width = "55%";
+        playersChoices.style.marginLeft = "27.5%";
         playersChoices.style.marginTop = "8%";
         playersChoices.style.borderRadius = "15px";
         playersChoices.style.textAlign = "center";
@@ -112,8 +112,8 @@ function endGame(){
 
         playersChoices.innerHTML = "<h2>Congratulations, You are Winner!</h2>";
         playersChoices.style.padding = "3%";
-        playersChoices.style.width = "50%";
-        playersChoices.style.marginLeft = "25%";
+        playersChoices.style.width = "60%";
+        playersChoices.style.marginLeft = "20%";
         playersChoices.style.marginTop = "8%";
         playersChoices.style.borderRadius = "15px";
         playersChoices.style.textAlign = "center";
